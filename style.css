@@ -12,6 +12,7 @@ a{
     text-decoration: none;
 }
 .main-container {
+    max-width: 1918px;
     display: flex;
 }
 
@@ -34,12 +35,13 @@ a{
 .sideber_btn a:hover{
     background-color: #5C5C5C;
 }
-
+/* <================================> */
 .content {
-    width: 1768px;
+    max-width: 93%;
     height: 935px;
     background: #FFFFFF;
     position: relative;
+    padding: 0 5%;
 }
 .content_logo {
     width: 310px;
@@ -53,7 +55,7 @@ a{
     width: 1510px;
     /* height: 210px; */
     background-color: #EFEFEF;
-    margin: 0 129px;
+    margin: 0 auto;
 }
 .content_group1 > h3 {
     text-align: center;
@@ -106,18 +108,10 @@ a{
     line-height: 78px;
     color: #3E3E3E;
 }
-@media(max-width:768px){
-
-
-.content_group{width: 90%;}
-
-
-
-}
 
 @media only screen and (max-width: 768px) {
         
 
-
+    .content_group{width: 90%;}
 
     }
